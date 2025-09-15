@@ -1,0 +1,15 @@
+= jMolecules Konsist
+
+This module contains https://docs.konsist.lemonappdev.com[Konsist] support to verify the integrity of domain concepts expressed via https://github.com/xmolecules/jmolecules#expressing-ddd-concepts[jMolecules DDD annotations or types].
+
+To use these rules, declare the following artifact as dependencies of your project:
+
+.Maven dependency
+[source,xml]
+----
+<dependency>
+  <groupId>org.jmolecules.integrations</groupId>
+  <artifactId>jmolecules-konsist</artifactId>
+  <version>${jmolecules-integrations.version}</version>
+  <scope>test</scope>
+</dependency>
