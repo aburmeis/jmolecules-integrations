@@ -32,7 +32,7 @@
 		<hibernate.version>6.6.28.Final</hibernate.version>
 		<java.version>1.8</java.version>
 		<jmolecules.version>1.10.0</jmolecules.version>
-        <kotlin.version>1.9.25</kotlin.version>
+        <kotlin.version>2.2.10</kotlin.version>
         <konsist.version>0.17.3</konsist.version>
 		<module.name>org.jmolecules.integrations</module.name>
 		<spring-boot.version>2.7.18</spring-boot.version>

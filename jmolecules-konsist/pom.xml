@@ -75,7 +75,13 @@
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <version>${kotlin.version}</version>
-
+                <configuration>
+                    <jvmTarget>1.8</jvmTarget>
+                    <apiVersion>2.0</apiVersion>
+                    <args>
+                        <arg>-java-parameters</arg>
+                    </args>
+                </configuration>
                 <executions>
                     <execution>
                         <id>compile</id>
